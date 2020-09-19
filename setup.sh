@@ -1,3 +1,3 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-alias k='kubectl'
+alias k=kubectl
