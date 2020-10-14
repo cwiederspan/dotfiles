@@ -9,17 +9,18 @@ source ~/.bash_aliases
 # --------------------
 
 # Powerline Fonts (https://github.com/powerline/fonts)
+#sudo apt-get install fonts-powerline
+
 
 # Powerline-go (https://github.com/justjanne/powerline-go)
-sudo apt-get install fonts-powerline
-
-sudo go get -u github.com/justjanne/powerline-go
+#sudo go get -u github.com/justjanne/powerline-go
 
 function _update_ps1() {
     PS1="$($GOPATH/bin/powerline-go -error $?)"
 }
 
 if [ "$TERM" != "linux" ] && [ -f "$GOPATH/bin/powerline-go" ]; then
+    echo "I AM HERE!!!"
     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
 
