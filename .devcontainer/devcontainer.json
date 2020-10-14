@@ -1,13 +1,13 @@
 {
     "name": "My Dotfiles",
-    "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+    "image": "mcr.microsoft.com/vscode/devcontainers/universal:linux",
 
     "settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},
 
 	"mounts": [
-        "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+		"source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
     ],
     
     "extensions": [
