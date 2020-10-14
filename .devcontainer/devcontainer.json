@@ -1,6 +1,6 @@
 {
     "name": "My Dotfiles",
-    "image": "mcr.microsoft.com/vscode/devcontainers/universal:0.17.1-linux",
+    "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
 
     "settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash"
