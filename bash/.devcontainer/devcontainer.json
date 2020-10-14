@@ -1,0 +1,26 @@
+{
+    "name": "My Dotfiles",
+    "image": "mcr.microsoft.com/vscode/devcontainers/universal:0.17.1-linux",
+
+    "settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+
+	"mounts": [
+        "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+    ],
+    
+    "extensions": [
+		"ms-dotnettools.csharp",
+		"ms-vscode.azurecli",
+		"ms-azuretools.vscode-docker",
+		"ms-azuretools.vscode-dapr",
+		"ms-azuretools.vscode-azureterraform",
+		"ms-azuretools.vscode-azurefunctions",
+		"ms-kubernetes-tools.vscode-kubernetes-tools",
+		"hashicorp.terraform",
+		"visualstudioexptteam.vscodeintellicode",
+		"davidanson.vscode-markdownlint",
+		"ms-mssql.mssql"
+	]
+  }
