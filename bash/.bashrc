@@ -13,8 +13,8 @@ sudo apt-get install fonts-powerline
 
 
 # Powerline-go (https://github.com/justjanne/powerline-go)
-cd ~/go/bin
-git clone https://github.com/justjanne/powerline-go.git
+cd /go/bin
+sudo git clone https://github.com/justjanne/powerline-go.git
 
 function _update_ps1() {
     PS1="$($GOPATH/bin/powerline-go -error $?)"
