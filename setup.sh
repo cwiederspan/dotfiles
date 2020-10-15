@@ -16,3 +16,5 @@ ln -sf ~/dotfiles/bash/.bash_aliases ~/
 
 # Powerline-go (https://github.com/justjanne/powerline-go)
 #sudo go get -u github.com/justjanne/powerline-go
+
+source ~/dotfiles/zsh/.zshrc
