@@ -8,11 +8,6 @@ source ~/.bash_aliases
 # Shell Configuration
 # --------------------
 
-
-## Setup and install oh-my-zsh
-ZSH_THEME="agnoster"
-#sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 # apt-get update
 # apt-get install -y 
 
