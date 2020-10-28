@@ -4,8 +4,8 @@ alias blah=kubectl
 # Shell Configuration
 # --------------------
 
-apt-get update
-apt-get install -y 
+#apt-get update
+#apt-get install -y 
 
 # USERNAME=codespace
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -19,7 +19,7 @@ apt-get install -y
 
 
 # Powerline-go (https://github.com/justjanne/powerline-go)
-sudo go get -u github.com/justjanne/powerline-go
+go get -u github.com/justjanne/powerline-go
 
 function _update_ps1() {
     PS1="$($GOPATH/bin/powerline-go -error $?)"
