@@ -1,4 +1,4 @@
-alias test=kubectl
+alias blah=kubectl
 
 # --------------------
 # Shell Configuration
