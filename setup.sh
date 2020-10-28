@@ -14,4 +14,4 @@ ln -sf ~/dotfiles/bash/.bash_aliases ~/
 # ln -sf $dotfiles_dir/bash/.inputrc ~/
 
 # ZSH mappings
-ln -sf ~/dotfiles/zsh/.zshrc ~/
+#ln -sf ~/dotfiles/zsh/.zshrc ~/
