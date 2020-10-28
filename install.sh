@@ -1,4 +1,4 @@
 echo "Setting up your dotfiles..."
 
 # Bash mappings
-ln -sf ~/dotfiles/bash/.bashrc ~/
+ln -sf ~/dotfiles/.bashrc ~/
