@@ -1,3 +1,5 @@
+alias test=kubectl
+
 # --------------------
 # Shell Configuration
 # --------------------
