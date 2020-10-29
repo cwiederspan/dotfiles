@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git clone https://github.com/cwiederspan/zero-to-aks.git
+
 echo "Setting up your dotfiles..."
 
 # Bash mappings
