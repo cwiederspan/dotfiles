@@ -2,6 +2,8 @@
 
 echo "Setting up your dotfiles..."
 
+git clone https://github.com/cwiederspan/container-quick-start.git
+
 # --------------------
 # Shell Configuration
 # --------------------
