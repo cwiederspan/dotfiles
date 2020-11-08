@@ -1,3 +1,7 @@
+#!/bin/bash
+
+echo "Setting up your dotfiles..."
+
 # --------------------
 # Shell Configuration
 # --------------------
@@ -14,12 +18,9 @@ if [ "$TERM" != "linux" ] && [ -f "$GOPATH/bin/powerline-go" ]; then
     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias k=kubectl
+# Bash mappings
+
+ln -sf ~/dotfiles/bash/.bashrc ~/
+# ln -sf ~/dotfiles/bash/.bash_aliases ~/
+# ln -sf $dotfiles_dir/bash/.bash_profile ~/
+# ln -sf $dotfiles_dir/bash/.inputrc ~/
