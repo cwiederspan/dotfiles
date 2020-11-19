@@ -4,7 +4,7 @@
 # --------------------
 
 # Powerline-go (https://github.com/justjanne/powerline-go)
-# go get -u github.com/justjanne/powerline-go
+go get -u github.com/justjanne/powerline-go
 
 # Setup the powerline configuration for a pretty shell experience
 GOPATH=$HOME/go
