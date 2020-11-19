@@ -7,7 +7,7 @@ echo "Setting up your dotfiles..."
 # --------------------
 
 # Powerline-go (https://github.com/justjanne/powerline-go)
-go get -u github.com/justjanne/powerline-go
+# go get -u github.com/justjanne/powerline-go
 
 # function _update_ps1() {
 #     PS1="$($GOPATH/bin/powerline-go -error $?)"
