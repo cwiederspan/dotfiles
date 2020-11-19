@@ -7,16 +7,17 @@ echo "Setting up your dotfiles..."
 # --------------------
 
 # Powerline-go (https://github.com/justjanne/powerline-go)
-# go get -u github.com/justjanne/powerline-go
+GOPATH=$HOME/go
 
-# function _update_ps1() {
-#     PS1="$($GOPATH/bin/powerline-go -error $?)"
-# }
+go get -u github.com/justjanne/powerline-go
 
-# if [ "$TERM" != "linux" ] && [ -f "$GOPATH/bin/powerline-go" ]; then
-#     echo "*** TESTING, TESTING, TESTING ***";
-#     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
-# fi
+function _update_ps1() {
+    PS1="$($GOPATH/bin/powerline-go -error $?)"
+}
+
+if [ "$TERM" != "linux" ] && [ -f "$GOPATH/bin/powerline-go" ]; then
+    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+fi
 
 # Bash mappings
 
