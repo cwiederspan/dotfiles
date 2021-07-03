@@ -1,9 +1,9 @@
-
 # --------------------
 # Shell Configuration
 # --------------------
 GOPATH=$HOME/go
 
+# Setup and Install Powerline-Go
 function _update_ps1() {
     PS1="$($GOPATH/bin/powerline-go -error $?)"
 }
